@@ -4,8 +4,5 @@ applications:
   path: target/PCC-Sample-App-PizzaStore-0.0.1-SNAPSHOT.jar
   buildpack: java_buildpack_offline
   random-route: true
-  env:
-     SPRING_PROFILES_ACTIVE: 
-#    SPRING_PROFILES_ACTIVE: tls
   services:
-    - dev-tls
+    - dev-si
